@@ -13,7 +13,7 @@ function Projects() {
                 </div>
 
 
-                <div className='grid md:grid-cols-3 md:mx-40 mx-10 md:gap-10 gap-10 md:mt-32 mt-10 '>
+                <div className='grid md:grid-cols-3  mx-10 md:gap-10 gap-10 md:mt-32 mt-10 '>
                     {/* card-1 */}
 
                     <div className='border rounded-4xl p-5 shadow-2xl hover:shadow-black transition duration-200 hover:scale-101 grid grid-rows-[auto_1fr_auto]'>
@@ -21,8 +21,6 @@ function Projects() {
                         <div className=''>
                             <img src={clone_design} alt="" className='border rounded-4xl md:h-72 h-52 hover:scale-105 transition' />
                         </div>
-
-
 
                         <div className='text-center my-5'>
                             <h3 className='text-xl font-semibold'>Clone Web design</h3>
