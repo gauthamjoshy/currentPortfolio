@@ -55,19 +55,19 @@ function Skills() {
 
                         <div className='flex flex-wrap gap-5 mt-5 '>
 
-                            <div className='px-6 py-4 bg-gray-300 rounded-2xl shadow hover:shadow-2xl hover:shadow-purple-500 transition-shadow duration-1000 hover:duration-100'>
+                            {/* <div className='px-6 py-4 bg-gray-300 rounded-2xl shadow hover:shadow-2xl hover:shadow-purple-500 transition-shadow duration-1000 hover:duration-100'>
                                 <div className='flex justify-center items-center'>
                                     <SiRedux className='text-5xl' />
                                 </div>
                                 <span className='text-2xl font-bold'>Redux</span>
-                            </div>
+                            </div> */}
 
-                            <div className='px-6 py-4 bg-gray-300 rounded-2xl shadow hover:shadow-2xl hover:shadow-red-500 transition-shadow duration-1000 hover:duration-100'>
+                            {/* <div className='px-6 py-4 bg-gray-300 rounded-2xl shadow hover:shadow-2xl hover:shadow-red-500 transition-shadow duration-1000 hover:duration-100'>
                                 <div className='flex justify-center items-center'>
                                     <FaAngular className='text-5xl' />
                                 </div>
                                 <span className='text-2xl font-bold'>Angular</span>
-                            </div>
+                            </div> */}
 
                             <div className='px-6 py-4 bg-gray-300 rounded-2xl shadow hover:shadow-2xl hover:shadow-cyan-300 transition-shadow duration-1000 hover:duration-100'>
                                 <div className='flex justify-center items-center'>
