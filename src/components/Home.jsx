@@ -21,7 +21,7 @@ function Home() {
                         </div>
 
                         <div className='flex justify-center items-center md:gap-5 gap-2 mt-6'>
-                            <a href={Gautham_Resumae} className='download text-black border w-fit py-3 px-4 rounded-3xl font-bold flex items-center cursor-pointer hover:text-white hover:bg-black transition'>Download CV</a>
+                            <a href={Gautham_Resumae} download={"Gautham_Joshy_resumae"} className='download text-black border w-fit py-3 px-4 rounded-3xl font-bold flex items-center cursor-pointer hover:text-white hover:bg-black transition'>Download CV</a>
                             <a href='#contact' className='text-white bg-black border w-fit py-3 px-4 rounded-3xl font-bold flex items-center cursor-pointer hover:text-black hover:bg-white transition'>Contact info</a>
                             <div></div>
                         </div>
