@@ -25,8 +25,8 @@ function Projects() {
 
 
                         <div className='text-center my-5'>
-                            <h3 className='text-2xl font-semibold'>Clone Web design</h3>
-                            <p className='text-lg font-medium mt-2'>A web design clone of IMDb specifically for desktop, created using HTML, CSS, and Bootstrap</p>
+                            <h3 className='text-xl font-semibold'>Clone Web design</h3>
+                            <p className='text font-medium mt-2'>A web design clone of IMDb specifically for desktop, created using HTML, CSS, and Bootstrap</p>
                         </div>
                         <div className='flex justify-center items-center gap-5 pb-5'>
                             <a href='https://github.com/gauthamjoshy/clone_site' className='bg-white border text-black text-lg px-4 py-2 rounded-4xl hover:bg-black hover:text-white transition cursor-pointer shadow-2xl'>Github</a>
@@ -42,8 +42,8 @@ function Projects() {
                         </div>
 
                         <div className='text-center my-5'>
-                            <h3 className='text-2xl font-semibold'>Student Progress Manager(Frontend)</h3>
-                            <p className='text-lg font-medium mt-2'>A React Frontend project for tracking the progress of students. Enables faculty authentication and complete student record management with CRUD features, also includes search, filtering, and sorting, powered by JSON Server as a mock backend.</p>
+                            <h3 className='text-xl font-semibold'>Student Progress Manager(Frontend)</h3>
+                            <p className=' font-medium mt-2'>A React Frontend project for tracking the progress of students. Enables faculty authentication and complete student record management with CRUD features, also includes search, filtering, and sorting, powered by JSON Server as a mock backend.</p>
                         </div>
                         <div className='flex justify-center items-center gap-5 pb-5'>
                             <a href='https://github.com/gauthamjoshy/studentManagementFrontend' className='bg-white border text-black text-lg px-4 py-2 rounded-4xl hover:bg-black hover:text-white transition cursor-pointer shadow-2xl'>Github</a>
@@ -60,8 +60,8 @@ function Projects() {
 
 
                         <div className='text-center my-5'>
-                            <h3 className='text-2xl font-semibold'></h3>
-                            <p className='text-lg font-medium mt-2'>Currently under development</p>
+                            <h3 className='text-xl font-semibold'></h3>
+                            <p className='text font-medium mt-2'>Currently under development</p>
                         </div>
                         <div className='flex justify-center items-center gap-5 pb-5'>
                             <p className='bg-white border text-black text-lg px-4 py-2 rounded-4xl hover:bg-black hover:text-white transition cursor-pointer shadow-2xl'>Github</p>
