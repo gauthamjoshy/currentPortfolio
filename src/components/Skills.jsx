@@ -15,7 +15,7 @@ function Skills() {
                     <h1 className='text-5xl font-bold'>Skills</h1>
                 </div>
 
-                <div className='grid md:grid-cols-2 md:mx-50 mx-10 md:gap-0 gap-10 md:mt-30 mt-10'>
+                <div className='grid md:grid-cols-2 md:mx-52 mx-10 md:gap-0 gap-10 md:mt-32 mt-10'>
                 {/* <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto px-6 mt-16"> */}
 
                     <div>
