@@ -19,7 +19,7 @@ function Projects() {
                     <div className='border rounded-4xl p-5 shadow-2xl hover:shadow-black transition duration-200 hover:scale-101 grid grid-rows-[auto_1fr_auto]'>
 
                         <div className=''>
-                            <img src={clone_design} alt="" className='border rounded-4xl md:h-52 h-40 hover:scale-105 transition' />
+                            <img src={clone_design} alt="" className='border rounded-4xl md:h-72 h-52 hover:scale-105 transition' />
                         </div>
 
 
