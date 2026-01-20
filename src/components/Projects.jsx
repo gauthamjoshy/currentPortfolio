@@ -59,8 +59,8 @@ function Projects() {
 
 
                         <div className='text-center my-5'>
-                            <h3 className='text-xl font-semibold'></h3>
-                            <p className='text font-medium mt-2'>Currently under development</p>
+                            <h3 className='text-xl font-semibold'>AI - Integrated Disaster Damage Assessment System(Fullstack)</h3>
+                            <p className=' font-medium mt-2'>Developed an AI-powered full-stack disaster management system using React, Node.js, Express.js, and MongoDB. Implemented JWT-based role authentication for users and organizations, built RESTful APIs for report management, and integrated the Gemini API for AI-driven analysis. Designed admin, user and organization dashboard to support efficient disaster response coordination.</p>
                         </div>
                         <div className='flex justify-center items-center gap-5 pb-5'>
                             <p className='bg-white border text-black text-lg px-4 py-2 rounded-4xl hover:bg-black hover:text-white transition cursor-pointer shadow-2xl'>Github</p>
