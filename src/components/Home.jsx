@@ -8,7 +8,7 @@ import { SiGmail } from 'react-icons/si'
 function Home() {
     return (
         <>
-            <div id='home' className='grid md:grid-cols-2 md:gap-10 md:mx-24 md:mt-32 mt-10'>
+            <div id='home' className='grid md:grid-cols-2 md:gap-32 md:mt-32 mt-10'>
                 {/* info */}
                 <div className='flex justify-center items-center md:ms-56'>
                     <div className=''>
