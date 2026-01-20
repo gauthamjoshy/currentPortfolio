@@ -24,9 +24,9 @@ function Skills() {
 
                             <div className='px-6 py-4 bg-gray-300 rounded-2xl shadow hover:shadow-2xl hover:shadow-orange-600 transition-shadow duration-1000 hover:duration-100'>
                                 <div className='flex justify-center items-center'>
-                                    <FaHtml5 className='text-3xl' />
+                                    <FaHtml5 className='text-5xl' />
                                 </div>
-                                <span className='md:text-xl text-lg font-bold '>HTML</span>
+                                <span className='md:text-2xl font-bold '>HTML</span>
                             </div>
 
                             <div className='px-8 py-4 bg-gray-300 rounded-2xl shadow hover:shadow-2xl hover:shadow-blue-700 transition-shadow duration-1000 hover:duration-100'>
