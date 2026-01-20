@@ -1,6 +1,7 @@
 import React from 'react'
 import clone_design from '../assets/clone_design.png'
 import Screenshot from '../assets/Screenshot.png'
+import disasterScreenshot from '../assets/disasterScreenshot.png'
 
 function Projects() {
     return (
@@ -36,7 +37,7 @@ function Projects() {
                     <div className='border rounded-4xl p-5 shadow-2xl hover:shadow-black transition duration-200 hover:scale-101 grid grid-rows-[auto_1fr_auto]'>
 
                         <div className=''>
-                            <img src={Screenshot} alt="" className='border rounded-4xl w-125 md:h-75 h-50 hover:scale-105 transition ' />
+                            <a href='https://drive.google.com/file/d/1LXRmDWDSdjYwg5F-D4mWLubLFOJJmN17/view'><img src={Screenshot} alt="" className='border rounded-4xl w-125 md:h-75 h-50 hover:scale-105 transition ' /></a>
                         </div>
 
                         <div className='text-center my-5'>
@@ -45,7 +46,7 @@ function Projects() {
                         </div>
                         <div className='flex justify-center items-center gap-5 pb-5'>
                             <a href='https://github.com/gauthamjoshy/studentManagementFrontend' className='bg-white border text-black text-lg px-4 py-2 rounded-4xl hover:bg-black hover:text-white transition cursor-pointer shadow-2xl'>Github</a>
-                            <a href='https://drive.google.com/file/d/1LXRmDWDSdjYwg5F-D4mWLubLFOJJmN17/view' className='bg-black border text-white text-lg px-4 py-2 rounded-4xl hover:bg-white hover:text-black transition cursor-pointer shadow-2xl'>Live Demo</a>
+                            <a href='https://student-management-frontend-lake.vercel.app' className='bg-black border text-white text-lg px-4 py-2 rounded-4xl hover:bg-white hover:text-black transition cursor-pointer shadow-2xl'>Live Demo</a>
                         </div>
                     </div>
 
@@ -53,7 +54,7 @@ function Projects() {
                     <div className='border rounded-4xl p-5 shadow-2xl hover:shadow-black transition duration-200 hover:scale-101 grid grid-rows-[auto_1fr_auto]'>
 
                         <div className=''>
-                            <img src="" alt="" className='border rounded-4xl md:h-75 h-50 hover:scale-105 transition ' />
+                            <img src={disasterScreenshot} alt="" className='border rounded-4xl md:h-75 h-50 hover:scale-105 transition ' />
                         </div>
 
 
