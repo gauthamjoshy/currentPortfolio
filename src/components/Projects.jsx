@@ -5,7 +5,7 @@ import Screenshot from '../assets/Screenshot.png'
 function Projects() {
     return (
         <>
-            <div id='projects' className='md:my-30 md:mt-50 my-20'>
+            <div id='projects' className='md:my-32 md:mt-52 my-20'>
 
                 <div className='text-center'>
                     <h2 className='text-lg font-medium'>Browse My Recent</h2>
@@ -13,14 +13,13 @@ function Projects() {
                 </div>
 
 
-                <div className='grid md:grid-cols-3 md:mx-40 mx-10 md:gap-10 gap-10 md:mt-30 mt-10'>
-
+                <div className='grid md:grid-cols-3 md:mx-40 mx-10 md:gap-10 gap-10 md:mt-32 mt-10 '>
                     {/* card-1 */}
 
-                    <div className='border rounded-4xl p-5 shadow-2xl hover:shadow-black transition duration-200 hover:scale-101'>
+                    <div className='border rounded-4xl p-5 shadow-2xl hover:shadow-black transition duration-200 hover:scale-101 grid grid-rows-[auto_1fr_auto]'>
 
                         <div className=''>
-                            <img src={clone_design} alt="" className='border rounded-4xl md:h-75 h-50 hover:scale-105 transition' />
+                            <img src={clone_design} alt="" className='border rounded-4xl md:h-72 h-52 hover:scale-105 transition' />
                         </div>
 
 
@@ -36,7 +35,7 @@ function Projects() {
                     </div>
 
                     {/* card-2 */}
-                    <div className='border rounded-4xl p-5 shadow-2xl hover:shadow-black transition duration-200 hover:scale-101 '>
+                    <div className='border rounded-4xl p-5 shadow-2xl hover:shadow-black transition duration-200 hover:scale-101 grid grid-rows-[auto_1fr_auto]'>
 
                         <div className=''>
                             <img src={Screenshot} alt="" className='border rounded-4xl w-125 md:h-75 h-50 hover:scale-105 transition ' />
@@ -53,7 +52,7 @@ function Projects() {
                     </div>
 
                     {/* card-3 */}
-                    {/* <div className='border rounded-4xl p-5 shadow-2xl hover:shadow-black transition duration-200 hover:scale-101'>
+                    <div className='border rounded-4xl p-5 shadow-2xl hover:shadow-black transition duration-200 hover:scale-101 grid grid-rows-[auto_1fr_auto]'>
 
                         <div className=''>
                             <img src="" alt="" className='border rounded-4xl md:h-75 h-50 hover:scale-105 transition ' />
@@ -69,7 +68,7 @@ function Projects() {
                             <a href='https://clone-site-tau.vercel.app/' className='bg-black border text-white text-lg px-4 py-2 rounded-4xl hover:bg-white hover:text-black transition cursor-pointer shadow-2xl'>Live Demo</a>
                         </div>
 
-                    </div> */}
+                    </div>
 
                 </div>
 
