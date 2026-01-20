@@ -67,7 +67,7 @@ function Projects() {
                         </div>
                         <div className='flex justify-center items-center gap-5 pb-5'>
                             <a href='https://github.com/gauthamjoshy/RapidRelief' className='bg-white border text-black text-lg px-4 py-2 rounded-4xl hover:bg-black hover:text-white transition cursor-pointer shadow-2xl'>Github</a>
-                            <a href='https://clone-site-tau.vercel.app/' className='bg-black border text-white text-lg px-4 py-2 rounded-4xl hover:bg-white hover:text-black transition cursor-pointer shadow-2xl'>Live Demo</a>
+                            <a href='#projects' className='bg-black border text-white text-lg px-4 py-2 rounded-4xl hover:bg-white hover:text-black transition cursor-pointer shadow-2xl'>Live Demo</a>
                         </div>
 
                     </div>
