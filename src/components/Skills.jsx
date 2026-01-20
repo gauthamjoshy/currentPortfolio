@@ -114,7 +114,7 @@ function Skills() {
 
                 {/* second row */}
 
-                <div className='grid md:grid-cols-2 md:mx- mx-10 md:gap-0 gap-10 md:mt-30 mt-10'>
+                <div className='grid md:grid-cols-2 md:mx-40 mx-10 md:gap-0 gap-10 md:mt-30 mt-10'>
 
                     <div>
                         <h1 className='text-3xl font-semibold'>Database</h1>
