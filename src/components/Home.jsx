@@ -47,7 +47,7 @@ function Home() {
 
                 {/* image */}
                 <div className='md:mt-0 mt-10'>
-                    <img className='shadow-xl shadow-gray-400 hover:scale-105 hover:shadow-xl hover:shadow-black transition duration-300 md:w-110 md:h-110 w-90 h-90 md:mx-0 mx-7 ' style={{ borderRadius: "50%" }} src={profileImage} alt="" />
+                    <img className='shadow-xl shadow-gray-400 hover:scale-105 hover:shadow-xl hover:shadow-black transition duration-300 md:w-100 md:h-100 w-90 h-90 md:mx-0 mx-7 ' style={{ borderRadius: "50%" }} src={profileImage} alt="" />
                 </div>
 
             </div>
