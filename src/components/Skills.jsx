@@ -91,7 +91,7 @@ function Skills() {
                         <h1 className='text-3xl font-semibold'>Backend Development</h1>
                         <div className='flex gap-5 mt-10'>
 
-                            <div className='px-6 py-4 bg-gray-300 rounded-2xl shadow hover:shadow-2xl hover:shadow-green-600 transition-shadow duration-1000 hover:duration-100'>
+                            <div className='px-6 py-4 bg-gray-300 rounded-2xl shadow hover:shadow-2xl hover:shadow-yellow-400 transition-shadow duration-1000 hover:duration-100'>
                                 <div className='flex justify-center items-center'>
                                     <FaNode className='text-5xl' />
                                 </div>

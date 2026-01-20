@@ -14,7 +14,7 @@ function Projects() {
                 </div>
 
 
-                <div className='grid md:grid-cols-3 md:mx-20 mx-10 md:gap-10 md:mt-32 mt-10 '>
+                <div className='grid md:grid-cols-3 md:mx-20 mx-10 md:gap-10 gap-5 md:mt-32 '>
                     {/* card-1 */}
 
                     <div className='border rounded-4xl p-5 shadow-2xl hover:shadow-black transition duration-200 hover:scale-101 grid grid-rows-[auto_1fr_auto]'>
@@ -36,8 +36,10 @@ function Projects() {
                     {/* card-2 */}
                     <div className='border rounded-4xl p-5 shadow-2xl hover:shadow-black transition duration-200 hover:scale-101 grid grid-rows-[auto_1fr_auto]'>
 
-                        <div className=''>
+                        <div className='relative group'>
                             <a href='https://drive.google.com/file/d/1LXRmDWDSdjYwg5F-D4mWLubLFOJJmN17/view'><img src={Screenshot} alt="" className='border rounded-4xl w-125 md:h-75 h-50 hover:scale-105 transition ' /></a>
+                            <span className='absolute top-[100px] text-green-700 text-xl font-bold px-10 hidden group-hover:block transition animate-bounce'>If the live demo is not working, click here to view the working</span>
+
                         </div>
 
                         <div className='text-center my-5'>
@@ -53,8 +55,9 @@ function Projects() {
                     {/* card-3 */}
                     <div className='border rounded-4xl p-5 shadow-2xl hover:shadow-black transition duration-200 hover:scale-101 grid grid-rows-[auto_1fr_auto]'>
 
-                        <div className=''>
-                            <img src={disasterScreenshot} alt="" className='border rounded-4xl md:h-75 h-50 hover:scale-105 transition ' />
+                        <div className='relative group'>
+                            <a href='https://drive.google.com/file/d/1LbIGGTx73X7J8fFziJkvjvqTY4nX2LTY/view?usp=drive_link'><img src={disasterScreenshot} alt="" className='border rounded-4xl md:h-75 h-50 hover:scale-105 transition' /></a>
+                            <span className='absolute top-[100px] text-green-700 text-xl font-bold px-10 hidden group-hover:block transition animate-bounce'>If the live demo is not working, click here to view the working</span>
                         </div>
 
 
@@ -63,7 +66,7 @@ function Projects() {
                             <p className=' font-medium mt-2'>Developed an AI-powered full-stack disaster management system using React, Node.js, Express.js, and MongoDB. Implemented JWT-based role authentication for users and organizations, built RESTful APIs for report management, and integrated the Gemini API for AI-driven analysis. Designed admin, user and organization dashboard to support efficient disaster response coordination.</p>
                         </div>
                         <div className='flex justify-center items-center gap-5 pb-5'>
-                            <p className='bg-white border text-black text-lg px-4 py-2 rounded-4xl hover:bg-black hover:text-white transition cursor-pointer shadow-2xl'>Github</p>
+                            <a href='https://github.com/gauthamjoshy/RapidRelief' className='bg-white border text-black text-lg px-4 py-2 rounded-4xl hover:bg-black hover:text-white transition cursor-pointer shadow-2xl'>Github</a>
                             <a href='https://clone-site-tau.vercel.app/' className='bg-black border text-white text-lg px-4 py-2 rounded-4xl hover:bg-white hover:text-black transition cursor-pointer shadow-2xl'>Live Demo</a>
                         </div>
 
