@@ -15,7 +15,7 @@ function Skills() {
                     <h1 className='text-5xl font-bold'>Skills</h1>
                 </div>
 
-                <div className='grid md:grid-cols-2 md:mx-52 mx-10 md:gap-0 gap-10 md:mt-32 mt-10'>
+                <div className='grid md:grid-cols-2 md:mx-40 mx-10 md:gap-0 gap-10 md:mt-32 mt-10'>
                 {/* <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto px-6 mt-16"> */}
 
                     <div>
@@ -24,9 +24,9 @@ function Skills() {
 
                             <div className='px-6 py-4 bg-gray-300 rounded-2xl shadow hover:shadow-2xl hover:shadow-orange-600 transition-shadow duration-1000 hover:duration-100'>
                                 <div className='flex justify-center items-center'>
-                                    <FaHtml5 className='text-5xl' />
+                                    <FaHtml5 className='text-3xl' />
                                 </div>
-                                <span className='md:text-2xl text-xl font-bold '>HTML</span>
+                                <span className='md:text-xl text-lg font-bold '>HTML</span>
                             </div>
 
                             <div className='px-8 py-4 bg-gray-300 rounded-2xl shadow hover:shadow-2xl hover:shadow-blue-700 transition-shadow duration-1000 hover:duration-100'>
@@ -114,7 +114,7 @@ function Skills() {
 
                 {/* second row */}
 
-                <div className='grid md:grid-cols-2 md:mx-50 mx-10 md:gap-0 gap-10 md:mt-30 mt-10'>
+                <div className='grid md:grid-cols-2 md:mx- mx-10 md:gap-0 gap-10 md:mt-30 mt-10'>
 
                     <div>
                         <h1 className='text-3xl font-semibold'>Database</h1>
